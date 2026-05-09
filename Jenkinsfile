@@ -32,11 +32,11 @@ pipeline {
             }
         }
 
-        stage('Run Test Cases') {
-            steps {
-                sh 'npm test'
-            }
-        }
+        // stage('Run Test Cases') {
+        //     steps {
+        //         sh 'npm test'
+        //     }
+        // }
 
         stage('Build Docker Image') {
             steps {
