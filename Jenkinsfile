@@ -9,7 +9,7 @@ pipeline {
         DOCKER_IMAGE   = 'umashankarkumar/jenkins_devops'
         DOCKER_TAG     = 'latest'
         CONTAINER_NAME = 'jenkins_devops_container'
-        PORT           = '3000'
+        PORT           = '30000'
     }
 
     stages {
